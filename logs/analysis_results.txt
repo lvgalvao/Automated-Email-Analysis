@@ -2,5 +2,4 @@ Média de Temperatura: 72.88
 Média de Pressão: 30.32
 Média de Vibração: 0.23
 Número de máquinas que precisam de manutenção: 16
-Códigos de erro únicos: ['E101' 'E102']
 Máquinas que precisam de manutenção: [ 3  6  9 11 15 18 21 24 27 30 33 36 39 42 45 48]
