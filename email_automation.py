@@ -1,6 +1,8 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from email.mime.base import MIMEBase
+from email import encoders
 from config.config import SENDER_EMAIL, RECEIVER_EMAIL, PASSWORD  # Importar as configurações
 
 def send_email():
@@ -11,6 +13,15 @@ def send_email():
     # Anexar o arquivo de log
     with open("./logs/analysis_results.txt", "r") as f:
         msg.attach(MIMEText(f.read(), "plain"))
+
+    # Anexar o arquivo de log como anexo
+    filename = "analysis_results.txt"
+    attachment = open("../logs/analysis_results.txt", "rb")
+    base = MIMEBase("application", "octet-stream")
+    base.set_payload(attachment.read())
+    encoders.encode_base64(base)
+    base.add_header("Content-Disposition", f"attachment; filename={filename}")
+    msg.attach(base)
 
     # Conectar ao servidor e enviar o email
     try:
