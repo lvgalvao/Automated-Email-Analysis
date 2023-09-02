@@ -1,0 +1,51 @@
+Machine_ID,Timestamp,Temperature,Pressure,Vibration,Error_Code,Operator,Location,Maintenance_Required,Comments
+1,2023-01-01 10:00,70,30,0.2,,Alice,Factory_A,No,
+2,2023-01-02 11:00,75,29,0.1,,Bob,Factory_B,No,
+3,2023-01-03 12:00,80,32,0.4,E101,Charlie,Factory_C,Yes,High vibration
+4,2023-01-04 13:00,68,28,0.3,,Dave,Factory_A,No,
+5,2023-01-05 14:00,73,31,0.15,,Eve,Factory_B,No,
+6,2023-01-06 15:00,77,33,0.2,E102,Frank,Factory_C,Yes,High pressure
+7,2023-01-07 16:00,71,29,0.1,,Grace,Factory_A,No,
+8,2023-01-08 17:00,69,30,0.4,,Hannah,Factory_B,No,
+9,2023-01-09 18:00,72,31,0.2,E101,Ivy,Factory_C,Yes,High vibration
+10,2023-01-10 19:00,74,32,0.1,,Jack,Factory_A,No,
+11,2023-01-11 20:00,79,33,0.3,E102,Kate,Factory_B,Yes,High pressure
+12,2023-01-12 21:00,75,30,0.15,,Leo,Factory_C,No,
+13,2023-01-13 22:00,70,28,0.4,,Mia,Factory_A,No,
+14,2023-01-14 23:00,68,29,0.2,,Nina,Factory_B,No,
+15,2023-01-15 00:00,77,30,0.1,E101,Oscar,Factory_C,Yes,High vibration
+16,2023-01-16 01:00,74,31,0.3,,Paul,Factory_A,No,
+17,2023-01-17 02:00,72,28,0.15,,Quinn,Factory_B,No,
+18,2023-01-18 03:00,71,33,0.4,E102,Rita,Factory_C,Yes,High pressure
+19,2023-01-19 04:00,69,29,0.2,,Steve,Factory_A,No,
+20,2023-01-20 05:00,70,30,0.1,,Tina,Factory_B,No,
+21,2023-01-21 06:00,75,31,0.3,E101,Ursula,Factory_C,Yes,High vibration
+22,2023-01-22 07:00,80,32,0.15,,Victor,Factory_A,No,
+23,2023-01-23 08:00,68,29,0.4,,Wendy,Factory_B,No,
+24,2023-01-24 09:00,73,33,0.2,E102,Xander,Factory_C,Yes,High pressure
+25,2023-01-25 10:00,77,30,0.1,,Yara,Factory_A,No,
+26,2023-01-26 11:00,71,28,0.3,,Zack,Factory_B,No,
+27,2023-01-27 12:00,69,31,0.15,E101,Alice,Factory_C,Yes,High vibration
+28,2023-01-28 13:00,70,30,0.4,,Bob,Factory_A,No,
+29,2023-01-29 14:00,75,32,0.2,,Charlie,Factory_B,No,
+30,2023-01-30 15:00,80,28,0.1,E102,Dave,Factory_C,Yes,High pressure
+31,2023-01-31 16:00,68,31,0.3,,Eve,Factory_A,No,
+32,2023-02-01 17:00,73,29,0.15,,Frank,Factory_B,No,
+33,2023-02-02 18:00,77,33,0.4,E101,Grace,Factory_C,Yes,High vibration
+34,2023-02-03 19:00,71,30,0.2,,Hannah,Factory_A,No,
+35,2023-02-04 20:00,69,29,0.1,,Ivy,Factory_B,No,
+36,2023-02-05 21:00,72,32,0.3,E102,Jack,Factory_C,Yes,High pressure
+37,2023-02-06 22:00,74,28,0.15,,Kate,Factory_A,No,
+38,2023-02-07 23:00,79,31,0.4,,Leo,Factory_B,No,
+39,2023-02-08 00:00,75,30,0.2,E101,Mia,Factory_C,Yes,High vibration
+40,2023-02-09 01:00,70,32,0.1,,Nina,Factory_A,No,
+41,2023-02-10 02:00,68,29,0.3,,Oscar,Factory_B,No,
+42,2023-02-11 03:00,77,33,0.15,E102,Paul,Factory_C,Yes,High pressure
+43,2023-02-12 04:00,74,30,0.4,,Quinn,Factory_A,No,
+44,2023-02-13 05:00,72,28,0.2,,Rita,Factory_B,No,
+45,2023-02-14 06:00,71,31,0.1,E101,Steve,Factory_C,Yes,High vibration
+46,2023-02-15 07:00,69,30,0.3,,Tina,Factory_A,No,
+47,2023-02-16 08:00,70,29,0.15,,Ursula,Factory_B,No,
+48,2023-02-17 09:00,75,33,0.4,E102,Victor,Factory_C,Yes,High pressure
+49,2023-02-18 10:00,80,30,0.2,,Wendy,Factory_A,No,
+50,2023-02-19 11:00,68,28,0.1,,Xander,Factory_B,No,
