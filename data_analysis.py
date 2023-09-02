@@ -14,12 +14,12 @@ def analysis():
     logger.info(f"Média de Vibração: {round(df['Vibration'].mean(), 2)}")
 
     # 2. Número de máquinas que precisam de manutenção
-    machines_needing_maintenance = df[df['Maintenance_Required'] == 'Yes'].shape[0]
-    logger.info(f"Número de máquinas que precisam de manutenção: {machines_needing_maintenance}")
+    machines_needing_maint = df[df['Maintenance_Required'] == 'Yes'].shape[0]
+    logger.info(f"N de máquinas que precisam de manutenção: {machines_needing_maint}")
 
     # 3. Máquinas com necessidade de manutenção
-    operators_with_issues = df[df['Maintenance_Required'] == 'Yes']['Machine_ID'].unique()
-    logger.info(f"Máquinas que precisam de manutenção: {operators_with_issues}")
+    machines_with_issues = df[df['Maintenance_Required'] == 'Yes']['Machine_ID'].unique()
+    logger.info(f"Máquinas que precisam de manutenção: {machines_with_issues}")
 
 if __name__ == "__main__":
     analysis()
