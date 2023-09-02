@@ -16,7 +16,7 @@ def send_email():
 
     # Anexar o arquivo de log como anexo
     filename = "analysis_results.txt"
-    attachment = open("../logs/analysis_results.txt", "rb")
+    attachment = open("./logs/analysis_results.txt", "rb")
     base = MIMEBase("application", "octet-stream")
     base.set_payload(attachment.read())
     encoders.encode_base64(base)
