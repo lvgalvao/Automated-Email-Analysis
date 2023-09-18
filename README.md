@@ -1,5 +1,9 @@
 # Projeto de Automatização de Análise e E-mail
 
+## Case
+
+Link: [Consolidador de arquivos](https://www.linkedin.com/posts/lucianovasconcelosf_j%C3%A1-imaginou-ter-que-combinar-mais-de-100-activity-7097904543446839296-CFIp?utm_source=share&utm_medium=member_desktop)
+
 ## Descrição
 
 Automatize suas análises e comunicações por e-mail em um piscar de olhos. Economize até 3 horas semanais com apenas três scripts Python. Este projeto oferece uma solução completa para análise de manutenção de máquinas e envio automatizado de relatórios via e-mail.
